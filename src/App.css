@@ -1,0 +1,24 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+
+}
+
+.mySection {
+  width: 100vw;
+  height: 100vh;
+  /* padding: 250px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./../public/img/Second.jpeg') center center/cover;
+}
